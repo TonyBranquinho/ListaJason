@@ -1,0 +1,222 @@
+[
+  {
+    "Placa": "ABC1234",
+    "Marca": "Toyota",
+    "Modelo": "Corolla",
+    "Ano": 2020,
+    "Cor": "Prata",
+    "Massa": 1350,
+    "PotenciaCV": 177,
+    "Combustivel": "Flex",
+    "ValorMercado": 110000
+  },
+  {
+    "Placa": "DEF5678",
+    "Marca": "Honda",
+    "Modelo": "Civic",
+    "Ano": 2019,
+    "Cor": "Preto",
+    "Massa": 1295,
+    "PotenciaCV": 155,
+    "Combustivel": "Flex",
+    "ValorMercado": 105000
+  },
+  {
+    "Placa": "GHI9012",
+    "Marca": "Ford",
+    "Modelo": "Ka",
+    "Ano": 2015,
+    "Cor": "Branco",
+    "Massa": 1010,
+    "PotenciaCV": 85,
+    "Combustivel": "Flex",
+    "ValorMercado": 38000
+  },
+  {
+    "Placa": "JKL3456",
+    "Marca": "Volkswagen",
+    "Modelo": "Golf",
+    "Ano": 2018,
+    "Cor": "Vermelho",
+    "Massa": 1320,
+    "PotenciaCV": 150,
+    "Combustivel": "Gasolina",
+    "ValorMercado": 95000
+  },
+  {
+    "Placa": "MNO7890",
+    "Marca": "Chevrolet",
+    "Modelo": "Onix",
+    "Ano": 2021,
+    "Cor": "Azul",
+    "Massa": 1070,
+    "PotenciaCV": 116,
+    "Combustivel": "Flex",
+    "ValorMercado": 85000
+  },
+  {
+    "Placa": "PQR1235",
+    "Marca": "Hyundai",
+    "Modelo": "HB20",
+    "Ano": 2022,
+    "Cor": "Cinza",
+    "Massa": 1045,
+    "PotenciaCV": 120,
+    "Combustivel": "Flex",
+    "ValorMercado": 88000
+  },
+  {
+    "Placa": "STU6789",
+    "Marca": "Nissan",
+    "Modelo": "Kicks",
+    "Ano": 2020,
+    "Cor": "Branco",
+    "Massa": 1230,
+    "PotenciaCV": 114,
+    "Combustivel": "Flex",
+    "ValorMercado": 98000
+  },
+  {
+    "Placa": "VWX2345",
+    "Marca": "Renault",
+    "Modelo": "Duster",
+    "Ano": 2021,
+    "Cor": "Prata",
+    "Massa": 1295,
+    "PotenciaCV": 120,
+    "Combustivel": "Flex",
+    "ValorMercado": 97000
+  },
+  {
+    "Placa": "YZA5678",
+    "Marca": "Jeep",
+    "Modelo": "Renegade",
+    "Ano": 2022,
+    "Cor": "Verde",
+    "Massa": 1425,
+    "PotenciaCV": 185,
+    "Combustivel": "Flex",
+    "ValorMercado": 125000
+  },
+  {
+    "Placa": "BCD9012",
+    "Marca": "Fiat",
+    "Modelo": "Argo",
+    "Ano": 2020,
+    "Cor": "Preto",
+    "Massa": 1085,
+    "PotenciaCV": 109,
+    "Combustivel": "Flex",
+    "ValorMercado": 73000
+  },
+  {
+    "Placa": "EFG3456",
+    "Marca": "Chevrolet",
+    "Modelo": "S10",
+    "Ano": 2021,
+    "Cor": "Branco",
+    "Massa": 1980,
+    "PotenciaCV": 200,
+    "Combustivel": "Diesel",
+    "ValorMercado": 220000
+  },
+  {
+    "Placa": "HIJ7890",
+    "Marca": "Toyota",
+    "Modelo": "Hilux",
+    "Ano": 2022,
+    "Cor": "Preto",
+    "Massa": 2110,
+    "PotenciaCV": 204,
+    "Combustivel": "Diesel",
+    "ValorMercado": 280000
+  },
+  {
+    "Placa": "KLM1234",
+    "Marca": "Mitsubishi",
+    "Modelo": "L200 Triton",
+    "Ano": 2021,
+    "Cor": "Cinza",
+    "Massa": 2020,
+    "PotenciaCV": 190,
+    "Combustivel": "Diesel",
+    "ValorMercado": 240000
+  },
+  {
+    "Placa": "NOP5678",
+    "Marca": "Ford",
+    "Modelo": "EcoSport",
+    "Ano": 2019,
+    "Cor": "Azul",
+    "Massa": 1240,
+    "PotenciaCV": 137,
+    "Combustivel": "Flex",
+    "ValorMercado": 80000
+  },
+  {
+    "Placa": "QRS9012",
+    "Marca": "Volkswagen",
+    "Modelo": "T-Cross",
+    "Ano": 2021,
+    "Cor": "Vermelho",
+    "Massa": 1270,
+    "PotenciaCV": 150,
+    "Combustivel": "Flex",
+    "ValorMercado": 120000
+  },
+  {
+    "Placa": "TUV3456",
+    "Marca": "Hyundai",
+    "Modelo": "Creta",
+    "Ano": 2022,
+    "Cor": "Branco",
+    "Massa": 1300,
+    "PotenciaCV": 167,
+    "Combustivel": "Flex",
+    "ValorMercado": 135000
+  },
+  {
+    "Placa": "WXY7890",
+    "Marca": "Peugeot",
+    "Modelo": "208",
+    "Ano": 2021,
+    "Cor": "Amarelo",
+    "Massa": 1088,
+    "PotenciaCV": 130,
+    "Combustivel": "Flex",
+    "ValorMercado": 88000
+  },
+  {
+    "Placa": "ZAB1234",
+    "Marca": "BMW",
+    "Modelo": "320i",
+    "Ano": 2020,
+    "Cor": "Preto",
+    "Massa": 1450,
+    "PotenciaCV": 184,
+    "Combustivel": "Gasolina",
+    "ValorMercado": 230000
+  },
+  {
+    "Placa": "CDE5678",
+    "Marca": "Mercedes-Benz",
+    "Modelo": "GLC 200",
+    "Ano": 2021,
+    "Cor": "Prata",
+    "Massa": 1700,
+    "PotenciaCV": 197,
+    "Combustivel": "Gasolina",
+    "ValorMercado": 360000
+  },
+  {
+    "Placa": "FGH9012",
+    "Marca": "Audi",
+    "Modelo": "Q3",
+    "Ano": 2022,
+    "Cor": "Branco",
+    "Massa": 1570,
+    "PotenciaCV": 231,
+    "Combustivel": "Gasolina",
+    "ValorMercado": 300000
+  }
+]
