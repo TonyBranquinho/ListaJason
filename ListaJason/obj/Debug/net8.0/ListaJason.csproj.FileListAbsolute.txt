@@ -12,3 +12,5 @@ C:\temp\ws-c#\ListaJason\ListaJason\obj\Debug\net8.0\refint\ListaJason.dll
 C:\temp\ws-c#\ListaJason\ListaJason\obj\Debug\net8.0\ListaJason.pdb
 C:\temp\ws-c#\ListaJason\ListaJason\obj\Debug\net8.0\ListaJason.genruntimeconfig.cache
 C:\temp\ws-c#\ListaJason\ListaJason\obj\Debug\net8.0\ref\ListaJason.dll
+C:\temp\ws-c#\ListaJason\ListaJason\obj\Debug\net8.0\ListaJason.sourcelink.json
+C:\temp\ws-c#\ListaJason\ListaJason\bin\Debug\net8.0\bancoVeiculos.json

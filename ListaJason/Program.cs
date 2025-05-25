@@ -1,4 +1,5 @@
 ﻿using ListaJason;
+using ListaJason.Entities;
 using System;
 
 namespace MyApp
@@ -7,16 +8,9 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            List<int> ListaNumeros = new List<int>() { 1, 2, 3, 4, 5 };
+            GerenciadorVeiculos ger = new GerenciadorVeiculos();
 
-            Nomes nomes = new Nomes();
-
-            Console.WriteLine("Digite um numero a ser excluido");
-            int excluir = int.Parse(Console.ReadLine());
-
-            nomes.Remover(ListaNumeros, excluir);
-
-            Console.WriteLine(ListaNumeros);
+            ger.Imprimir();
         }
     }
 }
