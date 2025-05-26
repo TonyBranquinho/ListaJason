@@ -19,12 +19,24 @@ namespace ListaJason.Entities
             ListaCarros = JsonSerializer.Deserialize<List<Veiculo>>(conteudo);
         }
 
-        public void Imprimir()
+        public void ImprimirListaToda()
         {
             foreach (Veiculo v in ListaCarros)
             {
                 Console.WriteLine(v.ToString());
             }
+        }
+
+        public Veiculo Verificar(string verifica)
+        {
+            foreach (Veiculo v in ListaCarros)
+            {
+                if (verifica.Trim().ToUpper() == v.Modelo.Trim().ToUpper())
+                {
+                    return v;
+                }
+            }
+            return null;
         }
     }
 }

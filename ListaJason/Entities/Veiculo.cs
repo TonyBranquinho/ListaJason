@@ -37,24 +37,8 @@ namespace ListaJason.Entities
         }
         public override string ToString()
         {
-            return Placa
-                 + " "
-                 + Marca
-                 + " "
-                 + Modelo
-                 + " "
-                 + Ano
-                 + " "
-                 + Cor
-                 + " "
-                 + Massa
-                 + " "
-                 + Potencia
-                 + " "
-                 + TipoCombustivel
-                 + " "
-                 + ValorMercado;
-
+            return string.Format("{0,-8} {1,-13} {2,-12} {3,-4} {4,-8} {5,2}kg {6,1}cv {7,-12} R$ {8,10:N0}",
+                Placa, Marca, Modelo, Ano, Cor, Massa, Potencia, TipoCombustivel, ValorMercado);
         }
     }
 }
