@@ -9,21 +9,24 @@ namespace ListaJason.Entities
 {
     internal class Veiculo
     {
+        // ATRIBUTOS
         public string Placa {  get; set; }
         public string Marca { get; set; }
         public string Modelo { get; set; }
         public int Ano { get; set; }
         public string Cor {  get; set; }
         public int Massa { get; set; }
-        public int Potencia { get; set;}
-        public string TipoCombustivel { get; set; }
+        public int PotenciaCV { get; set;}
+        public string Combustivel { get; set; }
         public double ValorMercado { get; set; }
 
+        // CONSTRUTOR VAZIO
         public Veiculo() 
         {
         }
 
-        public Veiculo(string placa, string marca, string modelo, int ano, string cor, int massa, int potencia, string tipoCombustivel, double valorMercado)
+        // CONSTRUTOR COM PARAMETROS
+        public Veiculo(string placa, string marca, string modelo, int ano, string cor, int massa, int potenciaCV, string combustivel, double valorMercado)
         {
             Placa = placa;
             Marca = marca;
@@ -31,14 +34,16 @@ namespace ListaJason.Entities
             Ano = ano;
             Cor = cor;
             Massa = massa;
-            Potencia = potencia;
-            TipoCombustivel = tipoCombustivel;
+            PotenciaCV = potenciaCV;
+            Combustivel = combustivel;
             ValorMercado = valorMercado;
         }
+
+        // CONFIGURA A IMPRESSAO DOS DADOS
         public override string ToString()
         {
-            return string.Format("{0,-8} {1,-13} {2,-12} {3,-4} {4,-8} {5,2}kg {6,1}cv {7,-12} R$ {8,10:N0}",
-                Placa, Marca, Modelo, Ano, Cor, Massa, Potencia, TipoCombustivel, ValorMercado);
+            return string.Format("{0,-8} {1,-13} {2,-12} {3,-4} {4,-10} {5,0}kg {6,4}cv {7,-10} R$ {8,-7:N0}",
+                Placa, Marca, Modelo, Ano, Cor, Massa, PotenciaCV, Combustivel, ValorMercado);
         }
     }
 }

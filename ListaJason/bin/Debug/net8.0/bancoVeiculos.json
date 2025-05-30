@@ -218,5 +218,16 @@
     "PotenciaCV": 231,
     "Combustivel": "Gasolina",
     "ValorMercado": 300000
+  },
+  {
+    "Placa": "mds5654",
+    "Marca": "Ford",
+    "Modelo": "Corcel 2",
+    "Ano": 1973,
+    "Cor": "marrom",
+    "Massa": 920,
+    "PotenciaCV": 72,
+    "Combustivel": "gasolina",
+    "ValorMercado": 20000
   }
 ]
