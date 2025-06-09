@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
+using ListaJason.Entities;
+using System.Runtime.ConstrainedExecution;
 
 
 namespace ListaJason.Entities
@@ -36,15 +38,15 @@ namespace ListaJason.Entities
         }
 
         // IMPRIME A LISTA
-        public void ImprimirListaToda()
+        public void ImprimirLista(List<Veiculo> ListaImprimir)
         {
-            foreach (Veiculo v in ListaCarros)
+            foreach (Veiculo v in ListaImprimir)
             {
                 Console.WriteLine(v.ToString());
             }
         }
 
-        // VERIFICA SE TE O MODELO DO CARRO NA LISTA
+        // VERIFICA SE TEM O MODELO DO CARRO NA LISTA
         public Veiculo Verificar(string verifica)
         {
             foreach (Veiculo v in ListaCarros)
@@ -58,10 +60,21 @@ namespace ListaJason.Entities
         }
 
         // CADASTRA VEICULOS
-        public void Cadastro(Veiculo dados)
+        public void Cadastro(Veiculo veiculo)
         {
-            ListaCarros.Add(dados);
+            ListaCarros.Add(veiculo);
         }
 
+        // BUSCA PLACA
+        public Veiculo BuscaPlaca(string buscaPlaca)
+        {
+            Veiculo placaDoVeiculo = ListaCarros.FirstOrDefault(v => v.Placa.ToUpper() == buscaPlaca.ToUpper());
+
+            if (placaDoVeiculo != null)
+            {
+                return placaDoVeiculo;
+            }
+            return null;
+        }
     }
 }

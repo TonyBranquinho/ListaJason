@@ -110,17 +110,6 @@
     "ValorMercado": 73000
   },
   {
-    "Placa": "EFG3456",
-    "Marca": "Chevrolet",
-    "Modelo": "S10",
-    "Ano": 2021,
-    "Cor": "Branco",
-    "Massa": 1980,
-    "PotenciaCV": 200,
-    "Combustivel": "Diesel",
-    "ValorMercado": 220000
-  },
-  {
     "Placa": "HIJ7890",
     "Marca": "Toyota",
     "Modelo": "Hilux",
@@ -163,17 +152,6 @@
     "PotenciaCV": 150,
     "Combustivel": "Flex",
     "ValorMercado": 120000
-  },
-  {
-    "Placa": "TUV3456",
-    "Marca": "Hyundai",
-    "Modelo": "Creta",
-    "Ano": 2022,
-    "Cor": "Branco",
-    "Massa": 1300,
-    "PotenciaCV": 167,
-    "Combustivel": "Flex",
-    "ValorMercado": 135000
   },
   {
     "Placa": "WXY7890",
@@ -220,14 +198,14 @@
     "ValorMercado": 300000
   },
   {
-    "Placa": "mds5654",
+    "Placa": "MDS5654",
     "Marca": "Ford",
     "Modelo": "Corcel 2",
     "Ano": 1973,
-    "Cor": "marrom",
+    "Cor": "Marrom",
     "Massa": 920,
     "PotenciaCV": 72,
-    "Combustivel": "gasolina",
+    "Combustivel": "Gasolina",
     "ValorMercado": 20000
   }
 ]

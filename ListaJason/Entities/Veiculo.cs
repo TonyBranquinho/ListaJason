@@ -42,7 +42,7 @@ namespace ListaJason.Entities
         // CONFIGURA A IMPRESSAO DOS DADOS
         public override string ToString()
         {
-            return string.Format("{0,-8} {1,-13} {2,-12} {3,-4} {4,-10} {5,0}kg {6,4}cv {7,-10} R$ {8,-7:N0}",
+            return string.Format("{0,-8} {1,-13} {2,-12} {3,-4} {4,-10} {5,-5}kg {6,4}cv {7,-10} R$ {8,-7:N0}",
                 Placa, Marca, Modelo, Ano, Cor, Massa, PotenciaCV, Combustivel, ValorMercado);
         }
     }
